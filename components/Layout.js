@@ -51,7 +51,7 @@ export default function Layout({ title, children }) {
             </Link>
             <form
               onSubmit={submitHandler}
-              className="mx-auto  hidden w-full justify-center md:flex"
+              className="mx-auto  w-full justify-center md:flex"
             >
               <input
                 onChange={(e) => setQuery(e.target.value)}
