@@ -56,6 +56,15 @@ export default function ProductScreen(props) {
               {product.rating} of {product.numReviews} reviews
             </li>
             <li>Description: {product.description}</li>
+            <li>
+              {" "}
+              <a
+                target="blank"
+                href="https://api.whatsapp.com/send?phone=+919999915562&text=Hi"
+              >
+                Inquiry On WhatsApp
+              </a>
+            </li>
           </ul>
         </div>
         <div>
