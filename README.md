@@ -25,3 +25,7 @@ http://localhost:3000/api/seed
 //DB Details
 database - pari
 collectioname - paritest
+
+
+https://moviesflick.netlify.app/home -- navigation bar like this site
+replace reduce by redux Tool kit
