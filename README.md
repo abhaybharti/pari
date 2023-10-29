@@ -26,6 +26,7 @@ http://localhost:3000/api/seed
 database - pari
 collectioname - paritest
 
-
 https://moviesflick.netlify.app/home -- navigation bar like this site
 replace reduce by redux Tool kit
+
+https://basir.thinkific.com/courses/take/build-ecommerce-website-like-amazon-by-next-js/lessons/44273323-display-ecommerce-stats -- Display Commerce State 12.00
