@@ -30,3 +30,8 @@ https://moviesflick.netlify.app/home -- navigation bar like this site
 replace reduce by redux Tool kit
 
 https://basir.thinkific.com/courses/take/build-ecommerce-website-like-amazon-by-next-js/lessons/44273323-display-ecommerce-stats -- Display Commerce State 12.00
+
+# How to Kill a Process Running on a Port
+
+netstat -ano | findstr :3000
+taskkill /PID PID_NO /F
