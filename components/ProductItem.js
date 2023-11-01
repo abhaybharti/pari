@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function ProductItem({ product, addToCartHandler }) {
+export default function ProductItem({ product }) {
   return (
     <div className="card">
       <Link href={`/product/${product.slug}`}>
