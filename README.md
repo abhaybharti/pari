@@ -35,3 +35,22 @@ https://basir.thinkific.com/courses/take/build-ecommerce-website-like-amazon-by-
 
 netstat -ano | findstr :3000
 taskkill /PID PID_NO /F
+
+# cloudinary.com to host image files
+
+# Feature List
+
+1. navigation menu adjacent to search
+2. send email order receipt when order is placed
+3. cancel order
+4. hover when mouse is on a product image
+5. image slider on product details page
+6. rating on products
+7. implement pagination
+8. Choose address on google map
+9. Upload multiple images for product
+10. Delete Order
+11. Delete User
+12. Live chat with customer
+13. Forget and Reset password
+    Source: https://www.udemy.com/course/draft/2789798/learn/lecture/25180976?start=15#overview

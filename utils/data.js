@@ -27,6 +27,8 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: "high quality product",
+      isFeatured: true,
+      banner: "/images/bannershopbeauty.jpg",
     },
     {
       // _id: "2",
@@ -40,6 +42,8 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: "high quality product",
+      isFeatured: true,
+      banner: "/images/bannershopbook.jpg",
     },
     {
       // _id: "3",
@@ -53,6 +57,8 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: "high quality product",
+      isFeatured: true,
+      banner: "/images/bannershopgame.jpg",
     },
     {
       // _id: "4",
@@ -66,6 +72,8 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: "high quality product",
+      isFeatured: true,
+      banner: "/images/bannershopholiday.jpg",
     },
     {
       // _id: "4",
@@ -79,6 +87,8 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: "high quality product",
+      isFeatured: true,
+      banner: "/images/bannershopholiday.jpg",
     },
     {
       // _id: "4",
@@ -92,6 +102,8 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: "high quality product",
+      isFeatured: true,
+      banner: "/images/bannershopholiday.jpg",
     },
     {
       // _id: "4",
