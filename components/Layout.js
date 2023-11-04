@@ -25,8 +25,8 @@ export default function Layout({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    setCartItemsCount(cart.cartItems.reduce((a, c) => a + c.quantity, 0));
-  }, [cart.cartItems]);
+    setCartItemsCount(cart?.cartItems.reduce((a, c) => a + c.quantity, 0));
+  }, [cart?.cartItems]);
 
   const logoutClickHandler = () => {
     Cookies.remove("cart");
@@ -70,38 +70,30 @@ export default function Layout({ title, children }) {
                   <div className="hidden md:block text-lg">
                     <div className="ml-10 flex items-baseline space-x-4">
                       <a
-                        href="#"
+                        href="/"
                         className=" hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md font-medium"
                       >
-                        Dashboard
+                        Home
                       </a>
 
                       <a
                         href="#"
                         className="hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md  font-medium"
                       >
-                        Team
+                        Cloths
                       </a>
-
-                      <a
-                        href="#"
-                        className="hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md font-medium"
-                      >
-                        Projects
-                      </a>
-
-                      <a
-                        href="#"
-                        className="hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md font-medium"
-                      >
-                        Calendar
-                      </a>
-
                       <a
                         href="#"
                         className="hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md  font-medium"
                       >
-                        Reports
+                        Cosmetics
+                      </a>
+
+                      <a
+                        href="#"
+                        className="hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md font-medium"
+                      >
+                        Electronics
                       </a>
                     </div>
                   </div>
@@ -302,7 +294,7 @@ export default function Layout({ title, children }) {
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
         <footer className="flex h-10 justify-center items-center shadow-inner">
-          <p>Copyright © 2022 Amazona</p>
+          <p>Copyright © 2023 Pari</p>
         </footer>
       </div>
     </>

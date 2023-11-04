@@ -1,5 +1,5 @@
 // import axios from "axios";
-// import { useContext } from "react";
+import { useContext } from "react";
 // import { toast } from "react-toastify";
 import Layout from "../components/Layout";
 import ProductItem from "../components/ProductItem";
@@ -9,6 +9,7 @@ import db from "../utils/db";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Link from "next/link";
+import { Store } from "../utils/Store";
 
 export default function Home({ products, featuredProducts }) {
   // const { state, dispatch } = useContext(Store);
@@ -26,6 +27,10 @@ export default function Home({ products, featuredProducts }) {
 
   //   toast.success("Product added to the cart");
   // };
+  const { state, dispatch } = useContext(Store);
+  console.log("products ", { products });
+  dispatch({ type: "LOAD_PRODUCT", payload: { products } });
+  console.log("state", state?.products);
 
   return (
     <Layout title="Home Page">
