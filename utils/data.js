@@ -22,7 +22,7 @@ const data = {
       category: "Cloths",
       subcategory: "Shirts",
       image:
-        "/images/cloth_GreenFlair_shirt1.png!/images/cloth_GreenFlair_shirt2.png",
+        "/images/clothGreenFlairshirt1.png!/images/clothGreenFlairshirt2.png",
       price: 120,
       countInStock: 10,
       brand: "GreenFlair ",
@@ -40,7 +40,7 @@ const data = {
       category: "Cloths",
       subcategory: "Shirts",
       image:
-        "/images/cloth_bellstone_shirt1.png!/images/cloth_bellstone_shirt2.png",
+        "/images/clothbellstoneshirt1.png!/images/clothbellstoneshirt2.png",
       price: 110,
       countInStock: 10,
       brand: "bellstone",
