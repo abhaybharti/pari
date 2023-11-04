@@ -13,6 +13,7 @@ export default function ProductScreen(props) {
   const { product } = props;
   const { state, dispatch } = useContext(Store);
   const router = useRouter();
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   if (!product) {
     return <Layout title="Product Not Found">Product Not Found</Layout>;
@@ -20,7 +21,7 @@ export default function ProductScreen(props) {
 
   let images = product.image.split("!") || product.image;
   let description = product.description.split("!") || product.description;
-  const [currentIndex, setCurrentIndex] = useState(0);
+  
 
   const nextSlide = () => {
     setCurrentIndex((currentIndex + 1) % images.length);
@@ -101,21 +102,21 @@ export default function ProductScreen(props) {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"
                     ></path>
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M15.293 8.293a1 1 0 011.414 0l2 2a1 1 0 01-1.414 1.414l-2-2a1 1 0 010-1.414z"
                     ></path>
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M12 6a2 2 0 100-4 2 2 0 000 4z"
                     ></path>
                   </svg>

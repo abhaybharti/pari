@@ -69,13 +69,9 @@ export default function Layout({ title, children }) {
                   </div>
                   <div className="hidden md:block text-lg">
                     <div className="ml-10 flex items-baseline space-x-4">
-                      <a
-                        href="/"
-                        className=" hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md font-medium"
-                      >
+                      <Link href="/" className="hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md font-medium">
                         Home
-                      </a>
-
+                      </Link>
                       <a
                         href="#"
                         className="hover:bg-yellow-400 hover:border-2 hover:border-indigo-600 hover:font-bold text-white px-2 py-1 rounded-md  font-medium"
