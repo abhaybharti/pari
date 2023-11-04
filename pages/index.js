@@ -27,10 +27,10 @@ export default function Home({ products, featuredProducts }) {
 
   //   toast.success("Product added to the cart");
   // };
-  const { state, dispatch } = useContext(Store);
-  console.log("products ", { products });
-  dispatch({ type: "LOAD_PRODUCT", payload: { products } });
-  console.log("state", state?.products);
+  // const { state, dispatch } = useContext(Store);
+  // console.log("products ", { products });
+  // dispatch({ type: "LOAD_PRODUCT", payload: { products } });
+  // console.log("state", state?.products);
 
   return (
     <Layout title="Home Page">
